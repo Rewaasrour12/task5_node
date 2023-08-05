@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+      <head>
+           <title>  new Project</title>
+           <link rel="stylesheet"  href="css/style.css" />
+               {{!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  --}}
+      </head>
+      <body>
+           <div class="weather_all"> 
+              <h2 class="weather">{{>header}} </h2>
+              <hr>
+           <form id="form1">
+               <div class="marg">
+            <input type="text" id="address" placeholder="Enter the Address">
+            <button>Search</button>
+            </div>
+        </form>
+          <p id="location"></p>
+          {{!-- <p id="error"></p> --}}
+          <p id="latitude"> </p>
+          <p id="longitude"></p>
+          <p id="forecast"></p>
+          <p id="error"></p>
+          <script src="js/script.js"></script>
+  </body>
+</html>
+
+
+
+
+
